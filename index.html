@@ -16,7 +16,7 @@
 
     <aside class="sidebar">
 
-        <h2>🚛 Fullbay</h2>
+        <h2>🚛 BRDiesel</h2>
 
         <nav>
 
@@ -58,14 +58,33 @@
             </p>
 
 
-            <h2>Passo 1 - Iniciar a Ordem </h2>
+            <div class="passo">
 
-            <p>
-                Clique em no botão indicado.
-                Nas opções seguintes, escolha <strong>Sales</strong> e em seguida <strong>Service Order</strong>.
-            </p>
+                <h2>Passo 1 - Iniciar a Ordem</h2>
 
-            <img src="images\1.1.png">
+                <p>
+                    1.1. Clique no botão indicado.
+                </p>
+
+                <p>
+                    1.2. Nas opções seguintes:
+                </p>
+
+                <p class="subpasso">
+                    1.2.3. Escolha: <strong>Sales</strong>
+                </p>
+
+                <p class="subpasso">
+                    1.2.4. Em seguida: <strong>Service Order</strong>
+                </p>
+
+            </div>
+
+
+            <img src="images/1.1.png" class="tutorial-img">
+
+
+            <p> Vídeo demonstrativo:</p>
             
             <video controls class="tutorial-video">
 
@@ -77,85 +96,164 @@
             <h2>Passo 2 - Customer</h2>
 
             <p>
-                Nesta tela, há três opções para adicionar o Customer. Você pode pesquisar o nome no campo de pesquisa, adicionar um novo clicando em <strong>New Customer</strong> ou escolher na lista.
+                Nesta tela, há três opções para adicionar o Customer: 
+            </p>
+            <p class = "passo">
+                2.1. <strong>Opção 1:</strong> Pesquisar o nome no campo de pesquisa.
+            </p>
+            <p class = "passo">
+                2.2. <strong>Opção 2:</strong> Adicionar um novo clicando em <strong>New Customer.</strong>
+            </p>    
+            <p class = "passo">
+                2.3. <strong>Opção 3:</strong> Escolher na lista.
             </p>
 
-            <img src="images\2.1.png" class="tutorial-img">
+            <img src="images/2.1.png" class="tutorial-img">
+
+            <p class="subpasso"> Para a situação 2.2, <strong>New Customer</strong>, adicionar as informações solicitadas e clicar em <strong>Save</strong>.</p>
+
+            <img src="images/cad.-cliente.png" class="tutorial-img">
 
             <p>
                 Caso o cliente já esteja cadastrado na base de dados, ao encontrá-lo e clicar em seu nome, terá a opção de especificar o contato solicitante do serviço ou deixar a própria empresa.
-                Em seguida, é necessário adicionar a <strong>Unit</strong> na qual o serviço será realizada.
-                O sistema apresenta uma lista de <strong>Units</strong> cadastradas para o cliente, ou você pode adicionar uma nova em <strong> New Unit </strong>.  
+                
+            <p class="passo"> 
+            2.4. Em seguida, é necessário adicionar a <strong>Unit</strong> na qual o serviço será realizada. 
+            </p>
+
+            <p class="subpasso">
+                O sistema apresenta uma lista de <strong>Units</strong> cadastradas para o cliente, ou você pode adicionar uma nova em <strong> New Unit </strong> (2.4.1).
             </p>
 
             <img src="images\2.2.png" class="tutorial-img">
 
-            <p>Na necessidade de adicionar uma <strong>New Unit</strong>, a tela com as informações requeridas são as seguintes:</p>
+            <p class="subpasso">
+                2.4.1. Na necessidade de adicionar uma <strong>New Unit</strong>, a tela com as informações requeridas é a seguinte:
+            </p>
 
             <img src="images\2.3.png" class="tutorial0img">
 
 
             <h2>Passo 3 - Complaint</h2>
 
+            <p class="subpasso">
+                3.1. Em <strong>Action Items</strong> adiciona-se o Customer Complaint:
+                <p class='subpasso'>
+                     3.1.1. Para cada Complaint que se prevê uma solução específica, escrever e cliar em <strong>Add</strong>. 
+                </p>
             <p>
-                Em <strong>Action Items</strong> adiciona-se o Customer Complaint, para cada Complaint que se prevê uma solução específica, escrever e cliar em <strong>Add</strong>.
-                <strong>OU</strong> selecione uma das opções disponíveis em: <strong> Add Access / Return Item, Unit PM, Pending Repair, Global Servce, or Service Package</strong>.
-                <strong>Atente-se: O sistema é capaz de detectar as Services Orders já abertas para a Unit selecionada (destacado no quadro azul).</strong>
-            </p>
+                <strong>OU</strong> 
+                <p class='subpasso'>
+                    3.1.2. Selecionar uma das opções disponíveis em: <strong> Add Access / Return Item, Unit PM, Pending Repair, Global Servce, or Service Package</strong>.
+                </p> 
+
+            <div class="tip">
+                 ⚠️ <strong>Atente-se:</strong> O sistema é capaz de detectar as <strong> Services Orders</strong> já abertas para a <strong>Unit</strong> selecionada (destacado no quadro azul).
+            </div>
 
             <img src="images\2.4.png" class="tutorial-img">
-            
  
             <div class="tip">
 
-                💡 <strong>Função Schedule</strong>
+                💡 <strong>Função Schedule:</strong>
 
                 Preencher as informações de agendamento, caso aplicável.
 
             </div>
             
-            <p>Ainda nesta tela é possível associar a <strong>Service Order</strong> a ser criada com uma <strong>purchase order number</strong> da empresa/cliente, sendo possível inclusive já estipular um valor pré-autorizado para realização do serviço.</p>.
+            <p class ="passo"> 3.2. Ainda nesta tela é possível associar a <strong>Service Order</strong> a ser criada com uma <strong>purchase order number</strong> da empresa/cliente, sendo possível inclusive já estipular um valor pré-autorizado para realização do serviço.</p>.
             <img src="images/2.5.png" class="tutorial-img">
-
-            <p>
-                A última coisa necessária para que o sistema permita a abertura da Service Order é designar um técnico.
-                Também é possível adicionar notas e optar que o cliente visualize ou não.
+            
+            <p class="passo">
+               3.3. A última coisa necessária para que o sistema permita a abertura da Service Order é designar um técnico.
+            </p>
+            <p class="subpasso">
+                Também é possível adicionar <strong>notas</strong> e optar que o cliente visualize ou não.
             </p>
             <img src="images/2.6.png" class="tutorial-img">
 
-            <p>Confira se todas as informações preenchidas estão corretas e clique em <strong>Create</strong>.</p>
-            <img src="'images/2.7.png" class="tutorial-img">
+            <p class="Passo">3.4 Confira se todas as informações preenchidas estão corretas e clique em <strong>Create</strong>.</p>
+            <img src="images/2.7.png" class="tutorial-img">
 
-            <h2></h2>
+            <h2>Vídeo demonstrativo do passo a passo completo:</h2>
+            
+            <video controls class="tutorial-video">
 
+                <source src="videos/service-order.mp4" type="video/mp4">
 
-
-
-
-
-            <div class="tip">
-
-                💡 <strong>Dica:</strong>
-
-                Confira se o cliente e o veículo estão corretos antes de salvar.
-
-            </div>
-
-            <hr>
+            </video>
 
         </section>
 
+<hr>
+
+        <section id="diagnose">
+
+            <h1> 🔍 Definindo o Diagnose</h1>
+
+             <div class="tip">
+
+                 💡 Para continuidade do processo, o <strong>Action Item</strong> precisa estar como <strong>Diagnose</strong>.
+
+            </div>
+            <img src="images/diag-1.png" class="tutorial-img">
+
+            <p class="passo">
+               1. Checar os <strong>Complaint</strong>, em alguns casos, separá-los para especificar.
+            </p>
+            
+            <video controls class="tutorial-video">
+
+                <source src="videos/two-diagnoses.mp4" type="video/mp4">
+
+            </video>
+            
+            <p class="passo">
+                2. Para cada <strong>Complaint</strong> especificar a <strong>Cause</strong>, quando não for algum problema específico, preencher com <strong>CUSTOMER REQUEST</strong>.
+            </p>
+            <p class="subpasso">
+                2.1. Quando não preenchido, especificar o tempo de trabalho estimado.
+            </p>
 
 
+            <video controls class="tutorial-video">
+
+                <source src="videos/ex-cause.mp4" type="video/mp4">
+
+            </video>
+
+            <p class="passo">
+                3. Exemplo de <strong>adição de serviço - Action Item-</strong> com <strong>adição de partes</strong>.
+            </p>
+            <video controls class="tutorial-video">
+
+                <source src="videos/add-parts.mp4" type="video/mp4">
+
+            </video>
+
+            <p class="subpasso">
+                Especificação das <strong>Parts</strong> na seção de <strong>Action Items</strong>. 
+            </p>
+            <p class="subpasso">
+                As <strong>Parts</strong> podem ser adicionadas através do Part# ou Descriptions. Enquanto são digitadas, as opções do sistema tendem a carregar.
+            </p>
+            <p class="subpasso">
+                - Apesar de aparecerem, os preços de custo não são editáveis nesta página, apenas na seção de <strong>Estimate</strong>.
+            </p>
+            <img src="images/parts-diagnose.png" class="tutorial-img">
+
+</section>
+
+<hr>
         <section id="estimate">
 
             <h1>💰 Criando um Estimate</h1>
 
-            <p>
+            <div class="tip">
 
-                Este tutorial será adicionado em breve.
+                💡 
 
-            </p>
+            </div>
 
         </section>
 
